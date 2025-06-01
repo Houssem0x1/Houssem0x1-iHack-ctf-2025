@@ -19,12 +19,12 @@ a good strategy here is to find a malicious packet, from where we can extract th
 
 we found one packet that contained `sqlmap` in the user-agent, since sqlmap is a famous tool for automating sql injections attacks, we can safely assume that this packet is malicious :
 
-![stream](writeup_images/stream.png)
+![stream](stream.png)
 
 we also see the server name and version which are : `apache 2.4.41`
 
 so we grab the attacker and the victim IP addresses from this packet :
-![stream](writeup_images/ip.png)
+![stream](ip.png)
 
 with that we have our flag
 
