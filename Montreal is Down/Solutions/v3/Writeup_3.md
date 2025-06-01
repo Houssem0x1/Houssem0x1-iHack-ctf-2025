@@ -9,7 +9,7 @@
 - What is the password of Mysql database ?     
   
   
-  Flag format: nexus{MysqlUID_ServerFile.ext_WebShellFile.ext_FirstCommand_dbPassword} 
+  Flag format: FLAG{MysqlUID_ServerFile.ext_WebShellFile.ext_FirstCommand_dbPassword} 
 
 # Solution
 
